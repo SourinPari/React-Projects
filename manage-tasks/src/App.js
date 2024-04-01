@@ -26,53 +26,75 @@ function App() {
   return (
     <>
       <div class="container-fluid m-4">
-        <div class="card w-75 m-4">
-          <div class="card-body">
-            <h4 class="text-success">Instructions-</h4>
-            <p>
-              This website creates agends according to your needs. Each agenda
-              record is a single entity containing a description of the agenda
-              and a list of pending tasks within that agenda.
-            </p>
-            <p>
-              The 'View Agenda List' button switches your view to a list of
-              agendas added by you. By default, you'll see a record already
-              created for you if you havn't created any agendas. The 'Go to
-              Agenda Form' button will switch your view back to the agenda form,
-              allowing you to create a new agenda. Both the 'Add Task' and 'Add
-              Agenda' button will be disabled by default. The 'Add Task' button
-              will be enabled only if there is some value in the 'Task Name'
-              field, and the 'Add Agenda' button will be enabled if there are
-              tasks already created and the 'Title' and 'Description' fields are
-              non-empty.
-            </p>
-            <p>
-              <span class="text-primary">
-                Step by step process to create a new agenda-
-              </span>
-              <ul>
-                <li>
-                  First fill the 'Task Name' field and add them using 'Add Task'
-                  button.
-                  <small class="text-danger">
-                    (You must fill some value before the button is enabled)
-                  </small>
-                </li>
-                <li>
-                  Add 'n' number of tasks as needed.
-                  <small class="text-danger">
-                    (You'll be able to see the tasks below on the screen)
-                  </small>
-                </li>
-                <li>
-                  At the end fill the 'Title' and 'Description' field and click
-                  on 'Add Agenda' button.
-                </li>
-                <li>
-                  This will add a new agenda to your existing list of agendas.
-                </li>
-              </ul>
-            </p>
+        <div class="accordion w-75 m-4" id="accordionExample">
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <span class="text-success text-uppercase">
+                  <strong>Instructions-</strong>
+                </span>
+              </button>
+            </h4>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  This website creates agends according to your needs. Each
+                  agenda record is a single entity containing a description of
+                  the agenda and a list of pending tasks within that agenda.
+                </p>
+                <p>
+                  The 'View Agenda List' button switches your view to a list of
+                  agendas added by you. By default, you'll see a record already
+                  created for you if you havn't created any agendas. The 'Go to
+                  Agenda Form' button will switch your view back to the agenda
+                  form, allowing you to create a new agenda. Both the 'Add Task'
+                  and 'Add Agenda' button will be disabled by default. The 'Add
+                  Task' button will be enabled only if there is some value in
+                  the 'Task Name' field, and the 'Add Agenda' button will be
+                  enabled if there are tasks already created and the 'Title' and
+                  'Description' fields are non-empty.
+                </p>
+                <p>
+                  <span class="text-primary">
+                    Step by step process to create a new agenda-
+                  </span>
+                  <ul>
+                    <li>
+                      First fill the 'Task Name' field and add them using 'Add
+                      Task' button.
+                      <small class="text-danger">
+                        (You must fill some value before the button is enabled)
+                      </small>
+                    </li>
+                    <li>
+                      Add 'n' number of tasks as needed.
+                      <small class="text-danger">
+                        (You'll be able to see the tasks below on the screen)
+                      </small>
+                    </li>
+                    <li>
+                      At the end fill the 'Title' and 'Description' field and
+                      click on 'Add Agenda' button.
+                    </li>
+                    <li>
+                      This will add a new agenda to your existing list of
+                      agendas.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
