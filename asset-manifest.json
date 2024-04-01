@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/manage-tasks/static/css/main.1b8dcd87.css",
-    "main.js": "/manage-tasks/static/js/main.9fe3a5e0.js",
-    "static/js/453.8252e4b3.chunk.js": "/manage-tasks/static/js/453.8252e4b3.chunk.js",
-    "index.html": "/manage-tasks/index.html",
-    "main.1b8dcd87.css.map": "/manage-tasks/static/css/main.1b8dcd87.css.map",
-    "main.9fe3a5e0.js.map": "/manage-tasks/static/js/main.9fe3a5e0.js.map",
-    "453.8252e4b3.chunk.js.map": "/manage-tasks/static/js/453.8252e4b3.chunk.js.map"
+    "main.css": "/React-Projects/manage-tasks/static/css/main.1b8dcd87.css",
+    "main.js": "/React-Projects/manage-tasks/static/js/main.9e28480a.js",
+    "static/js/453.8252e4b3.chunk.js": "/React-Projects/manage-tasks/static/js/453.8252e4b3.chunk.js",
+    "index.html": "/React-Projects/manage-tasks/index.html",
+    "main.1b8dcd87.css.map": "/React-Projects/manage-tasks/static/css/main.1b8dcd87.css.map",
+    "main.9e28480a.js.map": "/React-Projects/manage-tasks/static/js/main.9e28480a.js.map",
+    "453.8252e4b3.chunk.js.map": "/React-Projects/manage-tasks/static/js/453.8252e4b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b8dcd87.css",
-    "static/js/main.9fe3a5e0.js"
+    "static/js/main.9e28480a.js"
   ]
 }
